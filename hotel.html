@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="hotel.css">
+	<!-- bootstrap link -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+
+	
+
+	<link rel="stylesheet"
+  	href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Moul&family=Odor+Mean+Chey&family=Poppins:wght@700&display=swap" rel="stylesheet">
+	<title>Hotel Booking Page</title>
+</head>
+<body>
+	
+	<header id="home-header">
+		<div id="home-header--bg-image">
+			<nav class="navbar-expand-md px-md-5">
+				<h1>Hotel Booking</h1>
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a href="./index.html" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="index.html#section-title" class="nav-link">Rooms</a>
+						</li>
+						<li class="nav-item">
+							<a href="index.html#reservation-form" class="nav-link">Reservations</a>
+						</li>
+						<li class="nav-item">
+							<a href="index.html#container" class="nav-link">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="home-header--title">
+				<div class="container p-5">
+					<h1>Find the Best deals</h1>
+					<h3 id="reservation-form">for your next trip</h3>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section id="home-form">
+			<div class="wrapper">
+				<form id="find-available-rooms-form">
+					<div class="form-group">
+						<label>Chenk in</label>
+					</div>
+					<div class="form-group">
+						<label>Check out</label>
+					</div>
+					<div class="form-group">
+						<label>Guests</label>
+					</div>
+					<div class="form-group">
+						<button type="submit" class="btn btn-primary">
+							Search
+						</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section id="featured-rooms">
+			<div class="container my-5 py-5">
+				<div id="section-title">
+					<h2>Today's Best Deals</h2>
+				</div>
+				<div class="row custom-room-cards">
+					<div class="col col-md-3">
+						<div class="card">
+							<div class="card-body">
+								<img src="img/hotel-background.jpg">
+							</div>
+							<div class="card-footer">
+								<div class="label">Premium</div>
+								<div class="price">&nbsp;$90/day</div>
+							</div>
+							<div class="footer-body">Bronze Suite</div>
+						</div>
+					</div>
+					<div class="col col-md-3">
+						<div class="card">
+							<div class="card-body">
+								<img src="img/hotel1.jpg">
+							</div>
+							<div class="card-footer">
+								<div class="label">Premium</div>
+								<div class="price">&nbsp;$100/day</div>
+							</div>
+							<div class="footer-body">Silver Suite</div>
+						</div>
+					</div>
+					<div class="col col-md-3">
+						<div class="card">
+							<div class="card-body">
+								<img src="img/hotel2.jpg">
+							</div>
+							<div class="card-footer">
+								<div class="label">Premium</div>
+								<div class="price">&nbsp;$190/day</div>
+							</div>
+							<div class="footer-body">Gold Suite</div>
+						</div>
+					</div>
+					<div class="col col-md-3">
+						<div class="card">
+							<div class="card-body">
+								<img src="img/hotel3.jpg">
+							</div>
+							<div class="card-footer">
+								<div class="label">Premium</div>
+								<div class="price">&nbsp;$190/day</div>
+							</div>
+							<div class="footer-body">Diamond Suite</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="decoration-accomondation">
+			<div class="container my-5 py-5">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="content">
+							<div class="section-title">
+								<h2>Choose the perfect Accomondation</h2>
+							</div>
+							<p>
+								Modern hotels, built with the sole purpose of providing hotel accommodation, launched in American cities at the end of the 18th century.
+							</p>
+						</div>
+					</div>
+					<div class="col-md-7 card-container">
+						<div class="card">
+							<div class="card-body">
+								<img src="img/hotel4.jpg">
+							</div>
+							<div class="card-footer">Commercial Area</div>
+						</div>
+						<div class="card">
+							<div class="card-body">
+								<img src="img/hotel5.jpg">
+							</div>
+							<div class="card-footer">Residential Area</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="primium-section">
+			<div class="container my-5 py-5">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="card-container">
+							<div class="card">
+								<div class="card-body">
+									<img src="img/hotel6.jpg">
+								</div>
+									<div class="card-footer">
+										<div class="footer-head">
+											<div class="label">Premium</div>
+											<div class="price">&nbsp;$290/day</div>
+										</div>
+										<div class="footer-body">Royal Suite</div>
+									</div>
+							</div>
+							<div class="card">
+								<div class="card-body">
+									<img src="img/hotel7.jpg">
+								</div>
+									<div class="card-footer">
+										<div class="footer-head">
+											<div class="label">Premium</div>
+											<div class="price">&nbsp;$290/day</div>
+										</div>
+										<div class="footer-body">Organic Suite</div>
+									</div>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-5">
+							<div class="content">
+								<div id="section-title">
+									<h2>Premium Deals for for your premium needs</h2>
+								</div>
+								<p>
+									A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided inside a hotel room may range from a modest-quality mattress in a small room to large suites with bigger, higher-quality beds, a dresser, a refrigerator and other kitchen facilities, upholstered chairs, a flat screen television, and en-suite bathrooms. Small, lower-priced hotels may offer only the most basic guest services and facilities. Larger, higher-priced hotels may provide additional guest facilities such as a swimming pool, business centre, childcare, conference and event facilities, tennis or basketball courts, gymnasium, restaurants, day spa, and social function services.
+								</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="home-banner">
+			<div class="banner">
+				<div class="container">
+					<div class="jumbotron">
+						<h6>Our Newsletter</h6>
+						<h2>Become a member and enjoy flat 20% discount on booking.</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="page-footer font-small blue pt-4">
+		<div id="container">
+			<div class="row">
+				<div class="col-md-4 mb-md-0 mb-3">
+					<h5>Hotel Booking</h5>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#!">About us</a>
+						</li>
+						<li>
+							<a href="#!">Developer</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-4 mb-md-0 mb-3">
+					<h5 class="More">Links</h5>					
+					<ul class="list-unstyled">
+						<li>
+							<a href="#!">Rooms</a>
+						</li>
+						<li>
+							<a href="#!">Services</a>
+						</li>
+						<li>
+							<a href="#!">About</a>
+						</li>
+						<li>
+							<a href="#!">News</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-md-4 mb-md-0 mb-3">
+					<h5>Get in touch</h5>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#!">Toll Free no.</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright text-center py-3">
+			Hotel Booking 2023 All right Reserved
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
